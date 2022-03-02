@@ -1,0 +1,7 @@
+{
+    "@context": {
+        "ctc": "https://localhost:6666/ctc_test.jsonld"
+    },
+    "@type": "ctc:DFT"
+    
+}
