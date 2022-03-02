@@ -1,110 +1,74 @@
-[
-  {
-    "@id": "urn:science:catecom",
-    "@type": [
-      "http://www.w3.org/2002/07/owl#Ontology"
-    ]
-  },
-  {
-    "@id": "urn:science:catecom#AbInitio",
-    "@type": [
-      "http://www.w3.org/2002/07/owl#Class"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "en",
-        "@value": "AbInitio"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
-      {
-        "@id": "urn:science:catecom#QM"
-      }
-    ]
-  },
-  {
-    "@id": "urn:science:catecom#DFT",
-    "@type": [
-      "http://www.w3.org/2002/07/owl#Class"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "en",
-        "@value": "DensityFunctionalTheory"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
-      {
-        "@id": "urn:science:catecom#QM"
-      }
-    ]
-  },
-  {
-    "@id": "urn:science:catecom#HF",
-    "@type": [
-      "http://www.w3.org/2002/07/owl#Class"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "en",
-        "@value": "HartreeFock"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
-      {
-        "@id": "urn:science:catecom#AbInitio"
-      }
-    ]
-  },
-  {
-    "@id": "urn:science:catecom#Model",
-    "@type": [
-      "http://www.w3.org/2002/07/owl#Class"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "en",
-        "@value": "Model"
-      }
-    ]
-  },
-  {
-    "@id": "urn:science:catecom#PB",
-    "@type": [
-      "http://www.w3.org/2002/07/owl#Class"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "en",
-        "@value": "PhysicsBased"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
-      {
-        "@id": "urn:science:catecom#Model"
-      }
-    ]
-  },
-  {
-    "@id": "urn:science:catecom#QM",
-    "@type": [
-      "http://www.w3.org/2002/07/owl#Class"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#comment": [
-      {
-        "@value": "Physics-based methods which treat electrons explicitly."
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "en",
-        "@value": "QuantumMechanical"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
-      {
-        "@id": "urn:science:catecom#PB"
-      }
-    ]
-  }
-]
+[ {
+  "@id" : "http://www.semanticweb.org/alex/ontologies/2021/11/catecom_test#AbInitio",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "AbInitio"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/alex/ontologies/2021/11/catecom_test#QM"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/alex/ontologies/2021/11/catecom_test#DFT",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "DensityFunctionalTheory"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/alex/ontologies/2021/11/catecom_test#QM"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/alex/ontologies/2021/11/catecom_test#HF",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "HartreeFock"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/alex/ontologies/2021/11/catecom_test#AbInitio"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/alex/ontologies/2021/11/catecom_test#Model",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Model"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/alex/ontologies/2021/11/catecom_test#PB",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "PhysicsBased"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/alex/ontologies/2021/11/catecom_test#Model"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/alex/ontologies/2021/11/catecom_test#QM",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Physics-based methods which treat electrons explicitly."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "QuantumMechanical"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/alex/ontologies/2021/11/catecom_test#PB"
+  } ]
+}, {
+  "@id" : "urn:science:catecom",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "urn:science:catecom#00000000000000000000",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/alex/ontologies/2021/11/catecom_test#DFT"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "functionalName"
+  } ]
+} ]
